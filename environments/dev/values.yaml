@@ -18,10 +18,10 @@ environmentVariables:
   LANGFUSE_API_SECRET: prod/langfuse
 
 secrets:
-  # - name: openapi_key
-  #   vault:
-  #     path: tenant004/awsagent001
-  #     key: api_key
-  #   awsSecretManager:
-  #     key: "tenant004/awsagent001/api_key"
+  - name: openapi_key
+    vault:
+      path: tenant004/awsagent001
+      key: api_key
+    awsSecretManager:
+      key: "tenant004/awsagent001/api_key"
     
